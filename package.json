@@ -19,8 +19,8 @@
     "level": "^8.0.1",
     "muxrpc-validation": "^3.0.2",
     "ssb-client": "^4.9.0",
-    "ssb-keys": "^7.2.2",
-    "ssb-ref": "^2.14.0"
+    "ssb-keys": "^8.5.0",
+    "ssb-ref": "^2.16.0"
   },
   "devDependencies": {
     "pull-stream": "^3.6.14",

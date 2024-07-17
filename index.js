@@ -36,7 +36,7 @@ module.exports = {
     // temp: {allow: ['use']}
   },
   init: function (server, config) {
-    const codesDB = level(path.join(config.path, 'invites'), {
+    const codesDB = new level.Level(path.join(config.path, 'invites'), {
       valueEncoding: 'json'
     })
     // add an auth hook.
